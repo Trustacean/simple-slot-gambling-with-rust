@@ -1,10 +1,10 @@
 pub enum Symbol {
     Cherry,
     Lemon,
-    Orange,
-    Plum,
+    Grape,
+    Star,
     Bell,
-    Bar,
+    Diamond,
     Seven,
 }
 
@@ -13,11 +13,11 @@ impl Symbol {
         match self {
             Symbol::Cherry => "🍒",
             Symbol::Lemon => "🍋",
-            Symbol::Orange => "🍊",
-            Symbol::Plum => "🍇",
+            Symbol::Grape => "🍇",
+            Symbol::Star => "⭐",
             Symbol::Bell => "🔔",
-            Symbol::Bar => "🍫",
-            Symbol::Seven => "7️⃣"
+            Symbol::Diamond => "💎",
+            Symbol::Seven => "7️⃣",
         }
     }
 }
