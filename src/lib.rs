@@ -5,6 +5,7 @@ pub enum Symbols {
     Lemon,
     Cherry,
     Orange,
+    Zonk,
 }
 
 pub struct Outcome {
@@ -22,6 +23,7 @@ impl Outcome {
             Symbols::Lemon => "🍋",
             Symbols::Cherry => "🍒",
             Symbols::Orange => "🍊",
+            Symbols::Zonk => "❌",
         };
 
         Self {
